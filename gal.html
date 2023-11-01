@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories</title>
+    <link rel="icon" type="image/x-icon" href="./Images/memoriesicon.jpg">
+    <style>
+        /* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.98; 
+  cursor: pointer; 
+ 
+}
+
+.column img:hover {
+  opacity: 1;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+  
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+  
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  
+}
+#head{background-color: #a81b1b;
+        border-radius: 50px;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        opacity: .85;
+        }
+
+    </style>
+</head>
+<body background="./Images/back.webp">
+    <div id="head" ><h1>Here are some of our memories ❤️</h1>
+    <h2>when you are done on this page.. please <a href="thankyou.html" style="color: pink;">click here.</a></h2></div>
+    <!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <center><img src="./Images/rtc-snapshot-1439136057545954348.jpeg" width="90%" height="100%"  onclick="myFunction(this);"></center>
+    </div>
+    <div class="column">
+      <center><img src="./Images/rtc-snapshot-3322755311176539183.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <center><img src="./Images/rtc-snapshot-3388700195561237527.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+    </div>
+    
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <center><img src="./Images/rtc-snapshot-3410391332851997068.jpeg" width="90%" height="100%" alt="Those scaty nights" onclick="myFunction(this);">
+          </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-3752745052181080652.jpeg" width="90%" height="100%" alt="My foodie love" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-4193293473668042935.jpeg" width="90%" height="100%" alt="You are the cutest person i have ever seen <3" onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-5980218566283901301.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-6334324288618443698.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-7686755470461805042.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-6791569892720841207.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-7853283595263781769.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-8643132154396862162.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-5606281889053468388.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-7897810715436685079.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-4599865958659563229.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-8498728126277612419.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-8747686145583566186.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/rtc-snapshot-8834287344091651464.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-07-21-12-40-25-653_com.whatsapp.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-11-16-12-35-46-996_com.whatsapp.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-11-22-18-16-47-798_com.whatsapp.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-12-12-16-31-51-013_com.whatsapp.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-11-23-20-26-11-094_com.whatsapp.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-12-02-19-56-50-435_lockscreen.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/Screenshot_2021-07-25-00-37-14-295_com.whatsapp.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-05-09-02-21-46-245_com.facebook.orca.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/616a964a-7618-4c5a-812e-6ef60f527a17photo.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-01-06-00-05-40-656_com.facebook.orca.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-01-06-00-28-36-620_com.gbwhatsapp.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2021-12-13-10-28-14-621_com.facebook.orca.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/Screenshot_2021-07-10-13-41-23-099_lockscreen.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot 2022-12-11 at 8.53.09 PM.png" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2022-01-10-01-39-55-320_com.facebook.orca.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/IMG-20210418-WA0043.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/IMG-20210418-WA0046.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/IMG-20210418-WA0044.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/received_1679545559041705.jpeg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2021-04-09-11-19-52-686_com.facebook.orca.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/Screenshot_2021-04-09-11-24-48-035_com.facebook.orca.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <center><img src="./Images/baby4.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/baby2.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <center><img src="./Images/baby3.jpg" width="90%" height="100%"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+<script>
+    function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</body>
+</html>
